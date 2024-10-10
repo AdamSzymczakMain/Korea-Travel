@@ -12,7 +12,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="relative h-screen w-full">
+    <div className="relative h-screen w-full overflow-hidden">
       <Swiper
         modules={[Autoplay, Pagination]} // Dodanie modułów
         spaceBetween={30}
