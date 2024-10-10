@@ -40,6 +40,26 @@ const Navbar = () => {
             </button>
           </div>
         </div>
+        {moblieDrawerOpen && (
+          <div className="fixed right-0 z-20 bg-white-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+            <ul>
+              {navItems.map((item, index) => (
+                <li key={index} className="py-4">
+                  <a href={item.href}>{item.label}</a>
+                </li>
+              ))}
+            </ul>
+            <div className="py-2">
+              <a
+                href="#"
+                className="py-2
+                 rounded-md bg-gradient-to-r from-pink-300 to-pink-500 py-2 px-3 rounded-md"
+              >
+                Zarezerwuj
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
