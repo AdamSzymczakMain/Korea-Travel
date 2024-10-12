@@ -26,10 +26,10 @@ const HeroSection = () => {
         pagination={{
           clickable: true,
         }}
-        effect="fade"
-        fadeEffect={{
-          crossFade: true,
-        }}
+        // effect="fade"
+        // fadeEffect={{
+        //   crossFade: true,
+        // }}
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
@@ -45,10 +45,15 @@ const HeroSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none text-white">
-        <a href="#" className="pointer-events-auto">
+      <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none text-black ">
+        <a
+          href="#"
+          className=" pointer-events-auto bg-white border-2 rounded-full bg-opacity-50 p-1 px-4"
+        >
           Dowiedz się więcej
-          {<CircleChevronDown />}
+          <span className=" flex justify-center pt-1 ">
+            {<CircleChevronDown className=" ml-2 " />}
+          </span>
         </a>
       </div>
     </div>
