@@ -32,6 +32,7 @@ const HeroSection = () => {
               src={src.image}
               alt={`Slide ${index + 1}`}
               className="w-full h-full object-cover relative"
+              style={{ height: "calc(100svh - 50px)" }}
             />
             <p className="absolute bottom-0 left-1  m-4 text-white z-50">
               {src.text}
