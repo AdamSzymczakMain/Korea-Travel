@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay, Pagination, EffectFade } from "swiper/modules";
 import { ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
@@ -14,7 +14,7 @@ const HeroSection = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
       <Swiper
-        modules={[Autoplay, Pagination]}
+        modules={[Autoplay, Pagination, EffectFade]}
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -25,6 +25,10 @@ const HeroSection = () => {
         pagination={{
           clickable: true,
         }}
+        effect="fade"
+        fadeEffect={{
+          crossFade: true,
+        }}
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
@@ -32,7 +36,7 @@ const HeroSection = () => {
               src={src.image}
               alt={`Slide ${index + 1}`}
               className="w-full h-full object-cover relative"
-              style={{ height: "calc(100svh - 50px)" }}
+              style={{ height: "calc(100svh)" }}
             />
             <p className="absolute bottom-0 left-1  m-4 text-white z-50">
               {src.text}
