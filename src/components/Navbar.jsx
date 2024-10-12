@@ -19,14 +19,14 @@ const Navbar = () => {
             <img className="h-10 w-10" src={logo2} alt="logo" />
             <span className="text-xl tracking-tight">MimiKoreaTrip</span>
           </div>
-          <ul className="hidden lg:flex mr-12 space-x-12">
+          <ul className="hidden lg:flex mr-12 space-x-12 ">
             {navItems.map((item, index) => (
               <li key={index} className="font-medium">
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
           </ul>
-          <div className="hidden lg:flex items-center">
+          <div className="hidden lg:flex items-center ">
             <a
               className="bg-gradient-to-r from-pink-300 to-pink-500 py-2 px-3 rounded-md"
               href="#"
@@ -41,7 +41,10 @@ const Navbar = () => {
           </div>
         </div>
         {moblieDrawerOpen && (
-          <div className="fixed right-0 z-20 bg-white-900 w-full p-12 flex flex-col justify-center items-center lg:hidden">
+          <div
+            className="fixed right-0 z-50 bg-white-900 w-full p-12 flex flex-col justify-center items-center lg:hidden bg-white"
+            style={{ height: "calc(100svh)" }}
+          >
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">

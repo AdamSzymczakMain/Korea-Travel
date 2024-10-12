@@ -26,10 +26,6 @@ const HeroSection = () => {
         pagination={{
           clickable: true,
         }}
-        // effect="fade"
-        // fadeEffect={{
-        //   crossFade: true,
-        // }}
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
