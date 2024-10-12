@@ -1,3 +1,5 @@
+import { stepItems } from "../constants";
+
 const InformationSection = () => {
   return (
     <div className="relative mt-8 broder-b border-neutral-800 min-h-[800px]">
@@ -6,11 +8,17 @@ const InformationSection = () => {
           Informacje
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg-mt20 tracking-wide">
-          Łatwy przewodnik
-          <span className="bg-gredient-to-r from-pink-300 to-pink-500 text-transparent bg-clip-text">
+          Przewodnik
+          <span className="bg-gradient-to-r from-pink-300 to-pink-500 text-transparent bg-clip-text">
+            {" "}
             po stronie
           </span>
         </h2>
+      </div>
+      <div>
+        {stepItems.map((index, i) => {
+          <div></div>;
+        })}
       </div>
     </div>
   );
