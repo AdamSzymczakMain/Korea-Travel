@@ -1,3 +1,4 @@
+import { CircleChevronDown } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Pagination, EffectFade } from "swiper/modules";
@@ -38,12 +39,18 @@ const HeroSection = () => {
               className="w-full h-full object-cover relative"
               style={{ height: "calc(100svh)" }}
             />
-            <p className="absolute bottom-0 left-1  m-4 text-white z-50">
+            <p className="absolute bottom-0 left-1 m-4 text-white z-50">
               {src.text}
             </p>
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none text-white">
+        <a href="#" className="pointer-events-auto">
+          Dowiedz się więcej
+          {<CircleChevronDown />}
+        </a>
+      </div>
     </div>
   );
 };
