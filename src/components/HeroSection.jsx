@@ -5,10 +5,10 @@ import { ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   const images = [
-    { image: "/img/dmz.png", text: "XYZ" },
-    { image: "/img/jeju.png", text: "XYZ" },
-    { image: "/img/kioto.png", text: "XYZ" },
-    { image: "/img/Palawan.png", text: "XYZ" },
+    { image: "/img/dmz.png", text: "KOREA" },
+    { image: "/img/jeju.png", text: "ASDASD" },
+    { image: "/img/kioto.png", text: "TOKIO" },
+    { image: "/img/Palawan.png", text: "JEJU" },
   ];
 
   return (
@@ -31,9 +31,11 @@ const HeroSection = () => {
             <img
               src={src.image}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover relative"
             />
-            <p>{src.text}</p>
+            <p className="absolute bottom-0 left-1  m-4 text-white z-50">
+              {src.text}
+            </p>
           </SwiperSlide>
         ))}
       </Swiper>
