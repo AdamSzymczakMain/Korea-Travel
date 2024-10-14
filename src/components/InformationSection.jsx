@@ -15,13 +15,14 @@ const InformationSection = () => {
           </span>
         </h2>
       </div>
-      <div className="grid lg:grid-cols-3 lg:grid-row-2 gap-10 max-w-7xl mx-auto sm:felx sm:justify-center ">
+      <div className="relative grid lg:grid-cols-3 lg:grid-row-2 gap-10 max-w-7xl mx-auto sm:felx sm:justify-center ">
         {stepItems.map((item, i) => (
           <div
             key={i}
-            className="flex flex-col border-2 border-pink-400 rounded-lg p-5"
+            className="flex flex-col border-2 border-pink-400 rounded-lg p-5 bg-cover bg-center backdrop-blur-md"
+            style={{ background: `url(${item.background})` }}
           >
-            <div className="uppercase h-24">
+            <div className="uppercase h-24 bg-white/75 p-1 rounded-lg">
               <div className="flex items-center">
                 {item.icon}
                 <h1 className="text-3xl text-pink-500 pl-2 font-bold">
@@ -30,7 +31,9 @@ const InformationSection = () => {
               </div>
               <h2 className="text-lg font-bold">{item.header}</h2>
             </div>
-            <p className="pt-3 ">{item.content}</p>
+            <p className="pt-3 bg-white/75 rounded-lg p-2 mt-2">
+              {item.content}
+            </p>
           </div>
         ))}
       </div>
