@@ -2,9 +2,9 @@ import { stepItems } from "../constants";
 
 const InformationSection = () => {
   return (
-    <div className="relative mt-8 broder-b border-neutral-800 min-h-[800px]">
-      <div className="text-center">
-        <span className="bg-natural-900 text-pink-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
+    <div className="relative mt-8 border-b border-neutral-800 min-h-[800px]">
+      <div className="text-center mb-24">
+        <span className="bg-netural-900 text-pink-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
           Informacje
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xl mt-10 lg-mt20 tracking-wide">
@@ -15,10 +15,16 @@ const InformationSection = () => {
           </span>
         </h2>
       </div>
-      <div>
-        {stepItems.map((index, i) => {
-          <div></div>;
-        })}
+      <div className="grid lg:grid-cols-3 lg:grid-row-2 gap-10 max-w-7xl mx-auto sm:felx sm:justify-center ">
+        {stepItems.map((item, i) => (
+          <div key={i} className="border-2 border-pink-400 rounded-lg p-5">
+            <div className="uppercase">
+              <h1 className="text-2xl font-bold">{i + 1}. Krok</h1>
+              <h2 className="text-lg">{item.header}</h2>
+            </div>
+            <p className="pt-3">{item.content}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

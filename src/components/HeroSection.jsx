@@ -48,7 +48,7 @@ const HeroSection = () => {
         >
           Dowiedz się więcej
           <span className=" flex justify-center pt-1 ">
-            {<CircleChevronDown className=" ml-2 " />}
+            {<CircleChevronDown className=" mt-1 animate-bounce" />}
           </span>
         </a>
       </div>
