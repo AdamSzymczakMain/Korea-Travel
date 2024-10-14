@@ -1,8 +1,8 @@
 import { CircleChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay, Pagination, EffectFade } from "swiper/modules";
-import { ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   const images = [

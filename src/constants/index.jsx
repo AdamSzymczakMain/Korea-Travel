@@ -61,52 +61,52 @@ export const stepItems = [
 
 export const itemsTrip = [
   {
-    name: XYZ,
+    name: `XYZ`,
     description: "7 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ1,
+    name: `XYZ1`,
     description: "3 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ2,
+    name: `XYZ2`,
     description: "4 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ3,
+    name: `XYZ3`,
     description: "5 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ4,
+    name: `XYZ4`,
     description: "6 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ5,
+    name: `XYZ5`,
     description: "7 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ6,
+    name: `XYZ6`,
     description: "8 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ7,
+    name: `XYZ7`,
     description: "9 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ8,
+    name: `XYZ8`,
     description: "10 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
   {
-    name: XYZ9,
+    name: `XYZ9`,
     description: "11 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
