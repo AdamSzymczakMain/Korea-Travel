@@ -4,6 +4,7 @@ import {
   CircleEllipsis,
   CalendarCheck2,
   PartyPopper,
+  Plane,
 } from "lucide-react";
 
 export const navItems = [
@@ -16,29 +17,38 @@ export const navItems = [
 export const stepItems = [
   {
     icon: <Search />,
-    header: "Wyszukaj interesującą cię podróży",
-    content: "Znajdź idelna podróż dla siebie sprawdzając moje propozycje",
+    header: "Wyszukaj interesującą Cię wycieczkę",
+    content:
+      "Przeglądaj moje wyjątkowe propozycje wycieczek, które przygotowałem specjalnie dla Ciebie. Oferuję zarówno zwiedzanie największych atrakcji, jak i odkrywanie mniej znanych zakątków Korei, które fascynują swoją kulturą i historią. Możesz wybrać spośród różnych tematycznych wycieczek, takich jak kulinarne, kulturowe czy trekkingowe.",
   },
   {
     icon: <Calendar />,
     header: "Sprawdź dostępny termin",
-    content: "Wybierz dogodny termin dostępny dla Ciebie i zarezerwuj",
+    content:
+      "Po wybraniu interesującej Cię wycieczki sprawdź dostępne terminy. Wybierz datę, która najlepiej odpowiada Twojemu planowi, i dołącz do mnie, aby wyruszyć w podróż z polskojęzycznym przewodnikiem. Jeśli potrzebujesz bardziej spersonalizowanej trasy, istnieje możliwość organizacji wycieczki indywidualnej w dogodnym dla Ciebie terminie.",
   },
   {
     icon: <CircleEllipsis />,
-    header: "Wybierz dodatkowe opcje",
+    header: "Wybierz dodatkowe opcje i udogodnienia",
     content:
-      "Dostosuj swoją podróż dodając opcje, które spełnią Twoje oczekiwania",
+      "Personalizuj swoją wycieczkę, dodając opcje takie jak prywatne sesje fotograficzne w najpiękniejszych zakątkach Korei, dodatkowe warsztaty (np. lekcje gotowania tradycyjnych potraw), lub odwiedziny w mniej znanych miejscach, które uwielbiam pokazywać moim gościom. Dzięki temu podróż będzie naprawdę wyjątkowa.",
   },
   {
     icon: <CalendarCheck2 />,
-    header: "Dokonaj rezerwacji",
-    content: "Znajdź idelna podróż dla siebie sprawdzając moje propozycje",
+    header: "Zarezerwuj swoją wycieczkę",
+    content:
+      "Po wybraniu wszystkich szczegółów dokonaj rezerwacji online. Podaj niezbędne informacje, aby zagwarantować sobie miejsce. Wybierz dogodną metodę płatności i sfinalizuj rezerwację. Otrzymasz potwierdzenie oraz wszystkie niezbędne informacje na swój adres e-mail.",
   },
   {
     icon: <PartyPopper />,
-    header: "Potwierdź i ciesz się swoją rezerwacją",
+    header: "Potwierdź rezerwację i przygotuj się na przygodę",
     content:
-      "Otrzymaj potwierdzenie rezerwacji i przygotuj się na niezapomnianą przygodę!",
+      "Po otrzymaniu potwierdzenia rezerwacji otrzymasz również szczegółowy plan wycieczki oraz informacje praktyczne, które pomogą Ci się odpowiednio przygotować. Będziesz miał okazję zapoznać się z harmonogramem i poznać ciekawe fakty o miejscach, które odwiedzimy.",
+  },
+  {
+    icon: <Plane />,
+    header: "Wyrusz w podróż i odkrywaj Koreę z przewodnikiem",
+    content:
+      "Spotkaj się ze mną na miejscu zbiórki i rozpocznijmy naszą wspólną przygodę! Będę Ci towarzyszył na każdym kroku, dzieląc się swoją wiedzą o Korei oraz lokalnych tradycjach. Wspólnie będziemy odkrywać ukryte skarby, próbować lokalnych specjałów i doświadczać koreańskiej kultury. Przygotuj się na niezapomniane wspomnienia!",
   },
 ];
