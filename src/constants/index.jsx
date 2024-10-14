@@ -19,7 +19,7 @@ export const stepItems = [
     icon: <Search />,
     header: "Wyszukaj interesującą Cię wycieczkę",
     content:
-      "Przeglądaj moje wyjątkowe propozycje wycieczek, które przygotowałem specjalnie dla Ciebie. Oferuję zarówno zwiedzanie największych atrakcji, jak i odkrywanie mniej znanych zakątków Korei, które fascynują swoją kulturą i historią. Możesz wybrać spośród różnych tematycznych wycieczek, takich jak kulinarne, kulturowe czy trekkingowe.",
+      "Obejrzyj propozycje wycieczek, które przygotowałem specjalnie dla Ciebie. Oferuję zarówno zwiedzanie największych atrakcji, jak i odkrywanie mniej znanych zakątków Korei, które fascynują swoją kulturą i historią. Możesz wybrać spośród różnych tematycznych wycieczek, takich jak kulinarne, kulturowe czy trekkingowe.",
     background: "/img/bg-info.jpg",
   },
   {
@@ -56,5 +56,58 @@ export const stepItems = [
     content:
       "Spotkaj się ze mną na miejscu zbiórki i rozpocznijmy naszą wspólną przygodę! Będę Ci towarzyszył na każdym kroku, dzieląc się swoją wiedzą o Korei oraz lokalnych tradycjach. Wspólnie będziemy odkrywać ukryte skarby, próbować lokalnych specjałów i doświadczać koreańskiej kultury. Przygotuj się na niezapomniane wspomnienia!",
     background: "/img/bg-info.jpg",
+  },
+];
+
+export const itemsTrip = [
+  {
+    name: XYZ,
+    description: "7 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ1,
+    description: "3 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ2,
+    description: "4 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ3,
+    description: "5 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ4,
+    description: "6 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ5,
+    description: "7 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ6,
+    description: "8 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ7,
+    description: "9 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ8,
+    description: "10 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
+  },
+  {
+    name: XYZ9,
+    description: "11 dniowa wycieczka po Korei",
+    image: "/img/Palawan.png",
   },
 ];
