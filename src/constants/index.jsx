@@ -105,9 +105,4 @@ export const itemsTrip = [
     description: "10 dniowa wycieczka po Korei",
     image: "/img/Palawan.png",
   },
-  {
-    name: `XYZ9`,
-    description: "11 dniowa wycieczka po Korei",
-    image: "/img/Palawan.png",
-  },
 ];

@@ -10,9 +10,9 @@ const App = () => {
       <Navbar />
       <div className="max-w-7xl mx-auto ">
         <HeroSection />
+        <InformationSection />
+        <TripSection />
       </div>
-      <InformationSection />
-      <TripSection />
     </>
   );
 };
