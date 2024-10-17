@@ -6,6 +6,9 @@ export default {
       gridTemplateRows: {
         custom: "2fr 1fr 3fr 1fr",
       },
+      transitionDuration: {
+        2000: "2000ms",
+      },
     },
   },
   plugins: [],
