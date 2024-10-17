@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import InformationSection from "./components/InformationSection";
 import TripSection from "./components/TripSection";
+import SectionGallery from "./components/SectionGallery";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <HeroSection />
         <InformationSection />
         <TripSection />
+        <SectionGallery />
       </div>
     </>
   );
