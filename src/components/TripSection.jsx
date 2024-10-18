@@ -7,7 +7,7 @@ import { Pagination, EffectCoverflow, Navigation } from "swiper/modules";
 
 const TripSection = () => {
   return (
-    <div className="mt-5">
+    <div className="my-20">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
